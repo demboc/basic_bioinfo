@@ -7,9 +7,10 @@ This guide will teach you how to install Ubuntu in your Windows system that you 
 1. Start Windows PowerShell as Administrator
 2. Type in:
   > wsl --install
+
 this will install Ubuntu
 3. Once installed, you may search Ubuntu from the start menu or type in:
-	> wsl
+	> wsl  
 in the PowerShell
 	
 That's it, you now have Ubuntu installed!
