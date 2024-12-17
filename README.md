@@ -1,10 +1,15 @@
-## Basic Bioinformatics for Students
-### Targeted primarily for students, this repository houses resources and guides for performing basic bioinformatics analysis. If you have questions, please feel free to contact me. 
+## Installing Linux CLI in your Windows PC
 
-As of now, this github contains resources and guides for the following analyses:
+While you can get away with doing your bioinformatics analysis in Windows GUIs, there are numerous tools that are optimized for the Linux command line.  
+This guide will teach you how to install Ubuntu in your Windows system that you can use those tools for your bioinformatics analysis.  
 
-1. Section 1. Installing Linux CLI in your Windows PC
-2. Section 2. Command-line guide for sequence alignments using MAFFT and MUSCLE
-3. Section 3. Phylogenetic Tree construction with FastTree & Tree visualization using R
 
-Browse each section by clicking on the main branch and choosing the branch of your choice.
+1. Start Windows PowerShell as Administrator
+2. Type in:
+  > wsl --install
+this will install Ubuntu
+3. Once installed, you may search Ubuntu from the start menu or type in:
+	> wsl
+in the PowerShell
+	
+That's it, you now have Ubuntu installed!
