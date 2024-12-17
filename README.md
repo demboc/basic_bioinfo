@@ -1,7 +1,7 @@
 ## Sequence Alignments using MAFFT and MUSCLE CLIs and Phylogenetic Tree construction with FastTree
 
 Overview: 
-input sequences > MAFFT/MUSCLE > FastTree > your chosen tree viewer > pdf figure
+input sequences > MAFFT/MUSCLE > output file of your aligned sequence in .afa or .fasta extension
 
 Reminder: Make sure you have your sequences saved into one input file in fasta format and named input_file.fasta
 
@@ -13,24 +13,15 @@ Example:
 	>organism_3
 	AAAGGTTAAGCCCGTAGCCGATAGCCGAGATA  
 
-### Step 0: Installing the tools
-
-### Step 1: Alignments
-
-MAFFT
+### MAFFT
 
 For MAFFT alignments, use the following code to run a quick alignment with automatic parameters.
 		
   	mafft --auto input_file.fasta > alnd_seqs.afa
 
-MUSCLE
+### MUSCLE
 
 For MUSCLE, use the following code to run a quick alignment with automatic parameters.
 
 	muscle -align input_file.fasta -output alnd_seqs.afa
 
-### Step 2: Tree Construction
-
-Use the following command to create a phylogenetic tree file (in newick format with the .tre extension) using FastTree
-
-	FastTree -nt -gtr -gamma alnd_seqs.fasta > tree.tre
