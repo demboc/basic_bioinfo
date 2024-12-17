@@ -1,10 +1,11 @@
 ## Sequence Alignments using MAFFT and MUSCLE CLIs and Phylogenetic Tree construction with FastTree
 
 Overview: 
-input sequences > MAFFT/MUSCLE > output file of your aligned sequence in .afa or .fasta extension
+input file in .fasta extension > MAFFT/MUSCLE > output file of your aligned sequence in .afa or .fasta extension
 
-Reminder: Make sure you have your sequences saved into one input file in fasta format and named input_file.fasta
+Reminder: Make sure you have your sequences are saved into one input file in fasta format and saved in .fasta extension
 
+More information on FASTA formats: [Link Text](https://en.wikipedia.org/wiki/FASTA_format)
 Example:  
 	>organism_1
 	ATGCAGATGCGAGGTCGGAGAATTTCCGAGAT  
