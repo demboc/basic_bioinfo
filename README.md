@@ -13,7 +13,8 @@ Example:
 	>organism_3
 	AAAGGTTAAGCCCGTAGCCGATAGCCGAGATA  
 
- 
+### Step 0: Installing the tools
+
 ### Step 1: Alignments
 
 MAFFT
