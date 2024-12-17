@@ -5,13 +5,13 @@ input sequences > MAFFT/MUSCLE > FastTree > your chosen tree viewer > pdf figure
 
 Reminder: Make sure you have your sequences saved into one input file in fasta format and named input_file.fasta
 
-Example:
+Example:  
 	>organism_1
-	ATGCAGATGCGAGGTCGGAGAATTTCCGAGAT
+	ATGCAGATGCGAGGTCGGAGAATTTCCGAGAT  
 	>organism_2
-	AGATATTTAGGAATAGGACGATAAAGGCTAGA
+	AGATATTTAGGAATAGGACGATAAAGGCTAGA  
 	>organism_3
-	AAAGGTTAAGCCCGTAGCCGATAGCCGAGATA
+	AAAGGTTAAGCCCGTAGCCGATAGCCGAGATA  
 
  
 ### Step 1: Alignments
