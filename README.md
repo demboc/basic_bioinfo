@@ -13,14 +13,18 @@ Example:
 
 Step 1: Alignments
 
-	MAFFT
-		For MAFFT alignments, use the following code to run a quick alignment with automatic parameters.
-			mafft --auto input_file.fasta > alnd_seqs.afa
-	MUSCLE
-		For MUSCLE, use the following code to run a quick alignment with automatic parameters.
-			muscle -align input_file.fasta -output alnd_seqs.afa
+MAFFT
+For MAFFT alignments, use the following code to run a quick alignment with automatic parameters.
+		
+  	mafft --auto input_file.fasta > alnd_seqs.afa
+
+MUSCLE
+For MUSCLE, use the following code to run a quick alignment with automatic parameters.
+
+	muscle -align input_file.fasta -output alnd_seqs.afa
 
 Step 2: Tree Construction
 
-	Use the following command to create a phylogenetic tree file (in newick format with the .tre extension) using FastTree
-		FastTree -nt -gtr -gamma alnd_seqs.fasta > tree.tre
+Use the following command to create a phylogenetic tree file (in newick format with the .tre extension) using FastTree
+
+	FastTree -nt -gtr -gamma alnd_seqs.fasta > tree.tre
