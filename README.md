@@ -1,7 +1,6 @@
 ## Installing Linux CLI in your Windows PC
 
-While you can get away with doing your bioinformatics analysis in Windows GUIs, there are numerous tools that are optimized for the Linux command line.  
-This guide will teach you how to install Ubuntu in your Windows system that you can use those tools for your bioinformatics analysis.  
+While you can get away with doing your bioinformatics analysis in Windows GUIs, there are numerous tools that are optimized for the Linux command line. This guide will teach you how to install Ubuntu in your Windows system that you can use those tools for your bioinformatics analysis.  
 
 
 1. Start Windows PowerShell as Administrator
