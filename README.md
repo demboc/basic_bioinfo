@@ -5,14 +5,16 @@ input file in .fasta extension > MAFFT/MUSCLE > output file of your aligned sequ
 
 Reminder: Make sure you have your sequences are saved into one input file in fasta format and saved in .fasta extension
 
-More information on FASTA formats: [Link Text](https://en.wikipedia.org/wiki/FASTA_format)
-Example:  
+More information on [FASTA formats](https://en.wikipedia.org/wiki/FASTA_format)  
+
+How your sequences should look in your input file:  
 	>organism_1
 	ATGCAGATGCGAGGTCGGAGAATTTCCGAGAT  
 	>organism_2
 	AGATATTTAGGAATAGGACGATAAAGGCTAGA  
 	>organism_3
 	AAAGGTTAAGCCCGTAGCCGATAGCCGAGATA  
+
 
 ### MAFFT
 
