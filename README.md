@@ -1,4 +1,4 @@
-## Sequence Alignments using MAFFT and MUSCLE CLIs and Phylogenetic Tree construction with FastTree
+## Sequence Alignments using MAFFT and MUSCLE CLIs
 
 Overview: 
 input file in .fasta extension > MAFFT/MUSCLE > output file of your aligned sequence in .afa or .fasta extension
