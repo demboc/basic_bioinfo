@@ -4,7 +4,7 @@ While you can get away with doing your bioinformatics analysis in Windows GUIs, 
 
 
 1. Start Windows PowerShell as Administrator
-2. Type in the following command to install Ubuntu:
+2. Type in the following command to install Linux Ubuntu:
 > wsl --install
 3. Once installed, you may search Ubuntu from the start menu or type in the Powershell the command:	  
 > wsl  
