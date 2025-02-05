@@ -1,10 +1,17 @@
-## Basic Bioinformatics for Students
-### Targeted primarily for students, this repository houses resources and guides for performing basic bioinformatics analysis. If you have questions, please feel free to contact me. 
+## Phylogenetic Tree construction with FastTree & Tree visualization
 
-As of now, this github contains resources and guides for the following analyses:
+Overview: 
+input file in .afa format > FASTTREE > output file in .tre format for viewing in Tree Visualization software > .pdf file of your tree 
 
-1. [Section 1](https://github.com/demboc/basic_bioinfo/tree/Section-1). Installing Linux CLI in your Windows PC
-2. [Section 2](https://github.com/demboc/basic_bioinfo/blob/Section-2/README.md). Command-line guide for sequence alignments using MAFFT and MUSCLE
-3. [Section 3](https://github.com/demboc/basic_bioinfo/blob/Section-3/README.md). Phylogenetic Tree construction with FastTree & Tree visualization
+### Step 1: Installing the Tools
+FastTree
+> curl -O http://www.microbesonline.org/fasttree/FastTree.c
+> gcc -O3 -finline-functions -funroll-loops -Wall -o FastTree FastTree.c -lm
 
-Browse each section by clicking on the main branch and choosing the branch of your choice.
+Figtree
+http://tree.bio.ed.ac.uk/software/figtree/
+
+### Step 2: Phylotree Building
+1. Make sure you have your aligned sequences in one .afa file
+2. Use the following command to create a phylogenetic tree file (in newick format with the .tre extension) using FastTree
+> FastTree -nt -gtr -gamma alnd_seqs.fasta > tree.tre
