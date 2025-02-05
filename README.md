@@ -19,3 +19,9 @@ http://tree.bio.ed.ac.uk/software/figtree/
 2. Use the following command to create a phylogenetic tree file (in newick format with the .tre extension) using FastTree
 
         FastTree -nt -gtr -gamma alnd_seqs.fasta > tree.tre
+
+3. At this point, you have your phylogenetic tree ready for viewing. You can use any tree viewing software (FigTree or even MEGA).
+
+### Step 3: Viewing your Tree
+1. Now that you have your .tre file, we can view them using FigTree.
+2. 
