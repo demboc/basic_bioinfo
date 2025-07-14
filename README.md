@@ -1,5 +1,5 @@
 ## Basic Bioinformatics for Students
-### Targeted primarily for students, this repository houses resources and guides for performing basic bioinformatics analysis. If you have questions, please feel free to contact me. 
+### Targeted primarily for students without experience in performing bioinformatics through the Unix command line, this repository houses resources and guides for performing basic bioinformatics analysis. If you have questions, please feel free to contact me. 
 
 As of now, this github contains resources and guides for the following analyses:
 
